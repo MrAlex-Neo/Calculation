@@ -57,7 +57,6 @@ submitBtn.onclick = function(){
   const result = computeNumbersWithAction(input1, input2, action)
   result < 0 ? resultElement.style.color = 'red' : resultElement.style.color = 'green'
   resultElement.textContent = result
-  // printReturn(result)
 }
 
 
